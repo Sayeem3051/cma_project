@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign In</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
+</head>
+<body class="login-body">
+    <div class="login-container">
+        <div class="login-logo">
+            <img src="img/amazon-logo-black.png" alt="Amazon Logo">
+        </div>
+        
+        <div class="login-box">
+            <h1>Sign-In</h1>
+            
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email or mobile phone number</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <a href="#" class="forgot-password">Forgot Password</a>
+                </div>
+                
+                <button type="submit" class="signin-button">Sign-In</button>
+            </form>
+            
+            <div class="divider">
+                <h5>New to Amazon?</h5>
+            </div>
+            
+            <button class="create-account-button">Create your Amazon account</button>
+        </div>
+        
+        <div class="login-footer">
+            <div class="footer-links">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="copyright">© 1996-2023, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </div>
+    
+    <script src="js/login.js"></script>
+</body>
+</html> 

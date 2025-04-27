@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com: Saved Items</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/saved.css">
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            
+            <div class="nav-address border">
+                <p class="address-first">Deliver to</p>
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="address-second">United States</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Alexa Skills</option>
+                    <option>Amazon Devices</option>
+                    <option>Amazon Fashion</option>
+                    <option>Books</option>
+                    <option>Electronics</option>
+                </select>
+                <input type="text" class="search-input" placeholder="Search Amazon">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="cart-text">Cart</p>
+                <p class="cart-number" id="cart-count">0</p>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                <p>All</p>
+            </div>
+            <div class="panel-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html">Cart</a>
+                <a href="#">Today's Deals</a>
+                <a href="#">Customer Service</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="saved-main">
+        <div class="saved-container">
+            <h1>Saved Items</h1>
+            
+            <div class="saved-items-container" id="saved-items-list">
+                <!-- Saved items will be dynamically inserted here via JavaScript -->
+                <div class="empty-saved-message" id="empty-saved-message">
+                    <h2>You have no saved items</h2>
+                    <p>Items that you save for later will appear here.</p>
+                    <p>To save an item for later, add it to your cart first, then click "Save for later" on the item in your cart.</p>
+                    <a href="products.html" class="continue-shopping-btn">Continue shopping</a>
+                </div>
+            </div>
+            
+            <div class="recommendations">
+                <h2>Recommended for you</h2>
+                <div class="recommended-products" id="recommended-products">
+                    <!-- Recommended products will be dynamically inserted here via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-panel1">
+            Back to top
+        </div>
+        
+        <div class="footer-panel2">
+            <ul>
+                <li class="footer-title">Get to Know Us</li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>About Amazon</li>
+                <li>Investor Relations</li>
+                <li>Amazon Devices</li>
+                <li>Amazon Science</li>
+            </ul>
+            <ul>
+                <li class="footer-title">Make Money with Us</li>
+                <li>Sell products on Amazon</li>
+                <li>Sell on Amazon Business</li>
+                <li>Sell apps on Amazon</li>
+                <li>Become an Affiliate</li>
+                <li>Advertise Your Products</li>
+                <li>Self-Publish with Us</li>
+            </ul>
+            <ul>
+                <li class="footer-title">Amazon Payment Products</li>
+                <li>Amazon Business Card</li>
+                <li>Shop with Points</li>
+                <li>Reload Your Balance</li>
+                <li>Amazon Currency Converter</li>
+            </ul>
+            <ul>
+                <li class="footer-title">Let Us Help You</li>
+                <li>Amazon and COVID-19</li>
+                <li>Your Account</li>
+                <li>Your Orders</li>
+                <li>Shipping Rates & Policies</li>
+                <li>Returns & Replacements</li>
+                <li>Help</li>
+            </ul>
+        </div>
+
+        <div class="footer-panel3">
+            <div class="logo"></div>
+        </div>
+
+        <div class="footer-panel4">
+            <div class="copyright">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright-text">© 1996-2023, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
+
+    <script src="js/saved.js"></script>
+</body>
+</html> 
