@@ -1,41 +1,35 @@
-# Amazon Clone
+# Amazon Clone Project
 
-This is a front-end clone of the Amazon website built with HTML, CSS, and JavaScript.
+This is a simple Amazon.com clone built with HTML, CSS, and JavaScript. It features a responsive homepage, product listing, cart, and login page, with navigation similar to the real Amazon website.
 
 ## Features
+- Amazon-style navigation bar with logo and search
+- Product cards with images and links
+- Cart page for shopping cart functionality
+- Login page for user authentication (UI only)
+- Responsive design
+- Reference images from Unsplash for demo purposes
 
-- Responsive design that works on desktop and mobile
-- Homepage with featured products and categories
-- Product listing page with filters
-- Product detail pages
-- Shopping cart functionality
-- Save for later functionality
-- User authentication (simulated)
+## How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sayeem3051/cma_project.git
+   ```
+2. Open `index.html` in your browser to view the homepage.
+3. Navigate to `products.html`, `cart.html`, or `login.html` for other features.
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Local Storage for cart and saved items
-
-## Setup and Running
-
-1. Clone the repository
-2. Open `index.html` in your browser
-
-## Project Structure
-
-- `index.html` - Main homepage
-- `login.html` - Login page
-- `product-listing.html` - Product listing page
-- `product-detail.html` - Product detail page
+## Folder Structure
+- `index.html` - Homepage
+- `products.html` - Product listing page
 - `cart.html` - Shopping cart page
-- `saved-items.html` - Saved items page
-- `css/` - Contains all styling
-- `js/` - JavaScript functionality
-- `assets/` - Images and other static assets
+- `login.html` - Login page
+- `css/` - Stylesheets
+- `js/` - JavaScript files
+- `img/` - Images (logo, etc.)
 
-## License
+## Credits
+- Product images: [Unsplash](https://unsplash.com/)
+- Logo: Amazon (for educational/demo use only)
 
-This project is intended for educational purposes only. Amazon is a trademark of Amazon.com, Inc. 
+---
+This project is for educational purposes only and is not affiliated with Amazon.com. 

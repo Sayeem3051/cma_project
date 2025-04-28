@@ -57,10 +57,17 @@ header {
 }
 
 .logo {
-    background-image: url('../img/amazon-logo.png');
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     width: 100px;
+}
+
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 /* Address */
